@@ -1,0 +1,832 @@
+{
+  "mode": "stage4-full",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "q2_capacity": [
+    {
+      "question": "Q2",
+      "seed": 0,
+      "c": 8,
+      "tile_width": 0.1,
+      "table_size": 16384,
+      "test_rmse": 0.022055183884299598,
+      "val_rmse": 0.021700088983687266,
+      "best_epoch": 23,
+      "train_ms": 89.326167,
+      "active_cells": 8,
+      "trainable_params": 131072
+    },
+    {
+      "question": "Q2",
+      "seed": 0,
+      "c": 16,
+      "tile_width": 0.1,
+      "table_size": 16384,
+      "test_rmse": 0.014355201250111162,
+      "val_rmse": 0.014847650604616361,
+      "best_epoch": 18,
+      "train_ms": 82.293542,
+      "active_cells": 16,
+      "trainable_params": 262144
+    },
+    {
+      "question": "Q2",
+      "seed": 0,
+      "c": 32,
+      "tile_width": 0.1,
+      "table_size": 16384,
+      "test_rmse": 0.01229873938443214,
+      "val_rmse": 0.012569737080540025,
+      "best_epoch": 17,
+      "train_ms": 148.61833299999998,
+      "active_cells": 32,
+      "trainable_params": 524288
+    },
+    {
+      "question": "Q2",
+      "seed": 0,
+      "c": 32,
+      "tile_width": 0.05,
+      "table_size": 16384,
+      "test_rmse": 0.019366106355085993,
+      "val_rmse": 0.01565762426169062,
+      "best_epoch": 59,
+      "train_ms": 357.419292,
+      "active_cells": 32,
+      "trainable_params": 524288
+    },
+    {
+      "question": "Q2",
+      "seed": 0,
+      "c": 64,
+      "tile_width": 0.05,
+      "table_size": 16384,
+      "test_rmse": 0.019323443394469734,
+      "val_rmse": 0.01475967690402641,
+      "best_epoch": 58,
+      "train_ms": 707.885542,
+      "active_cells": 64,
+      "trainable_params": 1048576
+    },
+    {
+      "question": "Q2",
+      "seed": 0,
+      "c": 64,
+      "tile_width": 0.025,
+      "table_size": 16384,
+      "test_rmse": 0.12336594701714744,
+      "val_rmse": 0.12310605628982223,
+      "best_epoch": 60,
+      "train_ms": 701.96225,
+      "active_cells": 64,
+      "trainable_params": 1048576
+    },
+    {
+      "question": "Q2",
+      "seed": 0,
+      "c": 128,
+      "tile_width": 0.025,
+      "table_size": 16384,
+      "test_rmse": 0.12329083565060998,
+      "val_rmse": 0.12318996380659572,
+      "best_epoch": 60,
+      "train_ms": 1441.5234580000001,
+      "active_cells": 128,
+      "trainable_params": 2097152
+    },
+    {
+      "question": "Q2",
+      "seed": 1,
+      "c": 8,
+      "tile_width": 0.1,
+      "table_size": 16384,
+      "test_rmse": 0.02216956323221794,
+      "val_rmse": 0.021650513906615328,
+      "best_epoch": 15,
+      "train_ms": 37.779792,
+      "active_cells": 8,
+      "trainable_params": 131072
+    },
+    {
+      "question": "Q2",
+      "seed": 1,
+      "c": 16,
+      "tile_width": 0.1,
+      "table_size": 16384,
+      "test_rmse": 0.014885266212695708,
+      "val_rmse": 0.014413852007586884,
+      "best_epoch": 18,
+      "train_ms": 80.7195,
+      "active_cells": 16,
+      "trainable_params": 262144
+    },
+    {
+      "question": "Q2",
+      "seed": 1,
+      "c": 32,
+      "tile_width": 0.1,
+      "table_size": 16384,
+      "test_rmse": 0.011817911282130611,
+      "val_rmse": 0.011704812479532582,
+      "best_epoch": 18,
+      "train_ms": 157.191792,
+      "active_cells": 32,
+      "trainable_params": 524288
+    },
+    {
+      "question": "Q2",
+      "seed": 1,
+      "c": 32,
+      "tile_width": 0.05,
+      "table_size": 16384,
+      "test_rmse": 0.012747984797835583,
+      "val_rmse": 0.011910303752308646,
+      "best_epoch": 60,
+      "train_ms": 367.85925000000003,
+      "active_cells": 32,
+      "trainable_params": 524288
+    },
+    {
+      "question": "Q2",
+      "seed": 1,
+      "c": 64,
+      "tile_width": 0.05,
+      "table_size": 16384,
+      "test_rmse": 0.012769968397332005,
+      "val_rmse": 0.012032380012553487,
+      "best_epoch": 60,
+      "train_ms": 719.689125,
+      "active_cells": 64,
+      "trainable_params": 1048576
+    },
+    {
+      "question": "Q2",
+      "seed": 1,
+      "c": 64,
+      "tile_width": 0.025,
+      "table_size": 16384,
+      "test_rmse": 0.12446420774633285,
+      "val_rmse": 0.11744688266458256,
+      "best_epoch": 60,
+      "train_ms": 711.168458,
+      "active_cells": 64,
+      "trainable_params": 1048576
+    },
+    {
+      "question": "Q2",
+      "seed": 1,
+      "c": 128,
+      "tile_width": 0.025,
+      "table_size": 16384,
+      "test_rmse": 0.12410765771292755,
+      "val_rmse": 0.11771784802766673,
+      "best_epoch": 60,
+      "train_ms": 1531.030125,
+      "active_cells": 128,
+      "trainable_params": 2097152
+    },
+    {
+      "question": "Q2",
+      "seed": 2,
+      "c": 8,
+      "tile_width": 0.1,
+      "table_size": 16384,
+      "test_rmse": 0.021677774431028037,
+      "val_rmse": 0.0215519325327483,
+      "best_epoch": 10,
+      "train_ms": 31.104708,
+      "active_cells": 8,
+      "trainable_params": 131072
+    },
+    {
+      "question": "Q2",
+      "seed": 2,
+      "c": 16,
+      "tile_width": 0.1,
+      "table_size": 16384,
+      "test_rmse": 0.01490509232560532,
+      "val_rmse": 0.014561524828201902,
+      "best_epoch": 13,
+      "train_ms": 68.70175,
+      "active_cells": 16,
+      "trainable_params": 262144
+    },
+    {
+      "question": "Q2",
+      "seed": 2,
+      "c": 32,
+      "tile_width": 0.1,
+      "table_size": 16384,
+      "test_rmse": 0.012270190876155853,
+      "val_rmse": 0.012055362295671631,
+      "best_epoch": 17,
+      "train_ms": 156.899958,
+      "active_cells": 32,
+      "trainable_params": 524288
+    },
+    {
+      "question": "Q2",
+      "seed": 2,
+      "c": 32,
+      "tile_width": 0.05,
+      "table_size": 16384,
+      "test_rmse": 0.018916514686649993,
+      "val_rmse": 0.017921199157639178,
+      "best_epoch": 60,
+      "train_ms": 384.258125,
+      "active_cells": 32,
+      "trainable_params": 524288
+    },
+    {
+      "question": "Q2",
+      "seed": 2,
+      "c": 64,
+      "tile_width": 0.05,
+      "table_size": 16384,
+      "test_rmse": 0.018903580248946873,
+      "val_rmse": 0.01820615199564753,
+      "best_epoch": 60,
+      "train_ms": 745.918333,
+      "active_cells": 64,
+      "trainable_params": 1048576
+    },
+    {
+      "question": "Q2",
+      "seed": 2,
+      "c": 64,
+      "tile_width": 0.025,
+      "table_size": 16384,
+      "test_rmse": 0.12168804724908176,
+      "val_rmse": 0.11324884399160777,
+      "best_epoch": 60,
+      "train_ms": 760.0210830000001,
+      "active_cells": 64,
+      "trainable_params": 1048576
+    },
+    {
+      "question": "Q2",
+      "seed": 2,
+      "c": 128,
+      "tile_width": 0.025,
+      "table_size": 16384,
+      "test_rmse": 0.12174389073282375,
+      "val_rmse": 0.11334758421481138,
+      "best_epoch": 60,
+      "train_ms": 1574.7054999999998,
+      "active_cells": 128,
+      "trainable_params": 2097152
+    }
+  ],
+  "q3_collisions": [
+    {
+      "question": "Q3",
+      "seed": 0,
+      "table_size": 64,
+      "c": 32,
+      "test_rmse": 0.3874719014193136,
+      "val_rmse": 0.3910750255478002,
+      "best_epoch": 1,
+      "train_ms": 45.9185,
+      "trainable_params": 2048
+    },
+    {
+      "question": "Q3",
+      "seed": 0,
+      "table_size": 128,
+      "c": 32,
+      "test_rmse": 0.3631949918963343,
+      "val_rmse": 0.3496638652877197,
+      "best_epoch": 7,
+      "train_ms": 76.903917,
+      "trainable_params": 4096
+    },
+    {
+      "question": "Q3",
+      "seed": 0,
+      "table_size": 256,
+      "c": 32,
+      "test_rmse": 0.24740898328018082,
+      "val_rmse": 0.23923640740584431,
+      "best_epoch": 1,
+      "train_ms": 48.120084,
+      "trainable_params": 8192
+    },
+    {
+      "question": "Q3",
+      "seed": 0,
+      "table_size": 512,
+      "c": 32,
+      "test_rmse": 0.1855518865286679,
+      "val_rmse": 0.1845233896898638,
+      "best_epoch": 3,
+      "train_ms": 89.756167,
+      "trainable_params": 16384
+    },
+    {
+      "question": "Q3",
+      "seed": 0,
+      "table_size": 1024,
+      "c": 32,
+      "test_rmse": 0.011225276739038288,
+      "val_rmse": 0.013859162215193998,
+      "best_epoch": 60,
+      "train_ms": 373.850708,
+      "trainable_params": 32768
+    },
+    {
+      "question": "Q3",
+      "seed": 0,
+      "table_size": 2048,
+      "c": 32,
+      "test_rmse": 0.011225276739038288,
+      "val_rmse": 0.013859162215193998,
+      "best_epoch": 60,
+      "train_ms": 409.869125,
+      "trainable_params": 65536
+    },
+    {
+      "question": "Q3",
+      "seed": 0,
+      "table_size": 4096,
+      "c": 32,
+      "test_rmse": 0.011225276739038288,
+      "val_rmse": 0.013859162215193998,
+      "best_epoch": 60,
+      "train_ms": 372.021958,
+      "trainable_params": 131072
+    },
+    {
+      "question": "Q3",
+      "seed": 0,
+      "table_size": 8192,
+      "c": 32,
+      "test_rmse": 0.011225276739038288,
+      "val_rmse": 0.013859162215193998,
+      "best_epoch": 60,
+      "train_ms": 377.10275,
+      "trainable_params": 262144
+    },
+    {
+      "question": "Q3",
+      "seed": 0,
+      "table_size": 16384,
+      "c": 32,
+      "test_rmse": 0.011225276739038288,
+      "val_rmse": 0.013859162215193998,
+      "best_epoch": 60,
+      "train_ms": 378.234417,
+      "trainable_params": 524288
+    },
+    {
+      "question": "Q3",
+      "seed": 1,
+      "table_size": 64,
+      "c": 32,
+      "test_rmse": 0.3958117171713184,
+      "val_rmse": 0.38343232707078334,
+      "best_epoch": 2,
+      "train_ms": 54.253417,
+      "trainable_params": 2048
+    },
+    {
+      "question": "Q3",
+      "seed": 1,
+      "table_size": 128,
+      "c": 32,
+      "test_rmse": 0.36168694724795447,
+      "val_rmse": 0.34976318885832136,
+      "best_epoch": 6,
+      "train_ms": 71.971542,
+      "trainable_params": 4096
+    },
+    {
+      "question": "Q3",
+      "seed": 1,
+      "table_size": 256,
+      "c": 32,
+      "test_rmse": 0.2425217375288236,
+      "val_rmse": 0.24334745656445908,
+      "best_epoch": 3,
+      "train_ms": 58.304167,
+      "trainable_params": 8192
+    },
+    {
+      "question": "Q3",
+      "seed": 1,
+      "table_size": 512,
+      "c": 32,
+      "test_rmse": 0.18912853680877653,
+      "val_rmse": 0.1853597072345855,
+      "best_epoch": 3,
+      "train_ms": 63.077208,
+      "trainable_params": 16384
+    },
+    {
+      "question": "Q3",
+      "seed": 1,
+      "table_size": 1024,
+      "c": 32,
+      "test_rmse": 0.013831995090180363,
+      "val_rmse": 0.009509746313198347,
+      "best_epoch": 59,
+      "train_ms": 376.227125,
+      "trainable_params": 32768
+    },
+    {
+      "question": "Q3",
+      "seed": 1,
+      "table_size": 2048,
+      "c": 32,
+      "test_rmse": 0.013831995090180363,
+      "val_rmse": 0.009509746313198347,
+      "best_epoch": 59,
+      "train_ms": 371.427209,
+      "trainable_params": 65536
+    },
+    {
+      "question": "Q3",
+      "seed": 1,
+      "table_size": 4096,
+      "c": 32,
+      "test_rmse": 0.013831995090180363,
+      "val_rmse": 0.009509746313198347,
+      "best_epoch": 59,
+      "train_ms": 371.48641599999996,
+      "trainable_params": 131072
+    },
+    {
+      "question": "Q3",
+      "seed": 1,
+      "table_size": 8192,
+      "c": 32,
+      "test_rmse": 0.013831995090180363,
+      "val_rmse": 0.009509746313198347,
+      "best_epoch": 59,
+      "train_ms": 380.156834,
+      "trainable_params": 262144
+    },
+    {
+      "question": "Q3",
+      "seed": 1,
+      "table_size": 16384,
+      "c": 32,
+      "test_rmse": 0.013831995090180363,
+      "val_rmse": 0.009509746313198347,
+      "best_epoch": 59,
+      "train_ms": 386.885791,
+      "trainable_params": 524288
+    },
+    {
+      "question": "Q3",
+      "seed": 2,
+      "table_size": 64,
+      "c": 32,
+      "test_rmse": 0.39487665219216356,
+      "val_rmse": 0.39848339357140183,
+      "best_epoch": 1,
+      "train_ms": 47.760375,
+      "trainable_params": 2048
+    },
+    {
+      "question": "Q3",
+      "seed": 2,
+      "table_size": 128,
+      "c": 32,
+      "test_rmse": 0.35482000585993745,
+      "val_rmse": 0.3531784909574274,
+      "best_epoch": 1,
+      "train_ms": 47.131708,
+      "trainable_params": 4096
+    },
+    {
+      "question": "Q3",
+      "seed": 2,
+      "table_size": 256,
+      "c": 32,
+      "test_rmse": 0.2460626903671158,
+      "val_rmse": 0.253384193149274,
+      "best_epoch": 2,
+      "train_ms": 53.419791000000004,
+      "trainable_params": 8192
+    },
+    {
+      "question": "Q3",
+      "seed": 2,
+      "table_size": 512,
+      "c": 32,
+      "test_rmse": 0.18479514466189223,
+      "val_rmse": 0.2005753883938947,
+      "best_epoch": 4,
+      "train_ms": 69.451041,
+      "trainable_params": 16384
+    },
+    {
+      "question": "Q3",
+      "seed": 2,
+      "table_size": 1024,
+      "c": 32,
+      "test_rmse": 0.014251174731689822,
+      "val_rmse": 0.01629864790925343,
+      "best_epoch": 60,
+      "train_ms": 365.598084,
+      "trainable_params": 32768
+    },
+    {
+      "question": "Q3",
+      "seed": 2,
+      "table_size": 2048,
+      "c": 32,
+      "test_rmse": 0.014251174731689822,
+      "val_rmse": 0.01629864790925343,
+      "best_epoch": 60,
+      "train_ms": 377.284209,
+      "trainable_params": 65536
+    },
+    {
+      "question": "Q3",
+      "seed": 2,
+      "table_size": 4096,
+      "c": 32,
+      "test_rmse": 0.014251174731689822,
+      "val_rmse": 0.01629864790925343,
+      "best_epoch": 60,
+      "train_ms": 375.469541,
+      "trainable_params": 131072
+    },
+    {
+      "question": "Q3",
+      "seed": 2,
+      "table_size": 8192,
+      "c": 32,
+      "test_rmse": 0.014251174731689822,
+      "val_rmse": 0.01629864790925343,
+      "best_epoch": 60,
+      "train_ms": 383.049083,
+      "trainable_params": 262144
+    },
+    {
+      "question": "Q3",
+      "seed": 2,
+      "table_size": 16384,
+      "c": 32,
+      "test_rmse": 0.014251174731689822,
+      "val_rmse": 0.01629864790925343,
+      "best_epoch": 60,
+      "train_ms": 387.7095,
+      "trainable_params": 524288
+    }
+  ],
+  "q4_online": [
+    {
+      "question": "Q4",
+      "arm": "cmac",
+      "seed": 0,
+      "phase": "pre",
+      "window": 0,
+      "rmse": 0.01563113824131151,
+      "notes": "after fit on phase=0; before stream"
+    },
+    {
+      "question": "Q4",
+      "arm": "cmac",
+      "seed": 0,
+      "phase": "during_mid",
+      "window": 200,
+      "rmse": 0.39280836160935734,
+      "notes": "rolling stream RMSE mid-stream"
+    },
+    {
+      "question": "Q4",
+      "arm": "cmac",
+      "seed": 0,
+      "phase": "post_online",
+      "window": 0,
+      "rmse": 0.17347391440468193,
+      "notes": "after one-pass online on phase=π/2"
+    },
+    {
+      "question": "Q4",
+      "arm": "cmac_frozen",
+      "seed": 0,
+      "phase": "post_no_adapt",
+      "window": 0,
+      "rmse": 0.7387079106220197,
+      "notes": "same pre-fit, no online updates (baseline)"
+    },
+    {
+      "question": "Q4",
+      "arm": "mlp",
+      "seed": 0,
+      "phase": "pre",
+      "window": 0,
+      "rmse": 0.15915440905933778,
+      "notes": "after fit on phase=0"
+    },
+    {
+      "question": "Q4",
+      "arm": "mlp",
+      "seed": 0,
+      "phase": "during_mid",
+      "window": 200,
+      "rmse": 0.35471624982043276,
+      "notes": "rolling stream RMSE mid-stream"
+    },
+    {
+      "question": "Q4",
+      "arm": "mlp",
+      "seed": 0,
+      "phase": "post_online",
+      "window": 0,
+      "rmse": 0.2876829821365692,
+      "notes": "after one-pass SGD on phase=π/2 (no replay)"
+    },
+    {
+      "question": "Q4",
+      "arm": "mlp_frozen",
+      "seed": 0,
+      "phase": "post_no_adapt",
+      "window": 0,
+      "rmse": 0.7300216860242118,
+      "notes": "same pre-fit, no online"
+    },
+    {
+      "question": "Q4",
+      "arm": "cmac",
+      "seed": 1,
+      "phase": "pre",
+      "window": 0,
+      "rmse": 0.015269261504940271,
+      "notes": "after fit on phase=0; before stream"
+    },
+    {
+      "question": "Q4",
+      "arm": "cmac",
+      "seed": 1,
+      "phase": "during_mid",
+      "window": 200,
+      "rmse": 0.36796116003199664,
+      "notes": "rolling stream RMSE mid-stream"
+    },
+    {
+      "question": "Q4",
+      "arm": "cmac",
+      "seed": 1,
+      "phase": "post_online",
+      "window": 0,
+      "rmse": 0.2117421943419423,
+      "notes": "after one-pass online on phase=π/2"
+    },
+    {
+      "question": "Q4",
+      "arm": "cmac_frozen",
+      "seed": 1,
+      "phase": "post_no_adapt",
+      "window": 0,
+      "rmse": 0.7618312317827192,
+      "notes": "same pre-fit, no online updates (baseline)"
+    },
+    {
+      "question": "Q4",
+      "arm": "mlp",
+      "seed": 1,
+      "phase": "pre",
+      "window": 0,
+      "rmse": 0.1542322834555279,
+      "notes": "after fit on phase=0"
+    },
+    {
+      "question": "Q4",
+      "arm": "mlp",
+      "seed": 1,
+      "phase": "during_mid",
+      "window": 200,
+      "rmse": 0.2596870632648561,
+      "notes": "rolling stream RMSE mid-stream"
+    },
+    {
+      "question": "Q4",
+      "arm": "mlp",
+      "seed": 1,
+      "phase": "post_online",
+      "window": 0,
+      "rmse": 0.2904337380274054,
+      "notes": "after one-pass SGD on phase=π/2 (no replay)"
+    },
+    {
+      "question": "Q4",
+      "arm": "mlp_frozen",
+      "seed": 1,
+      "phase": "post_no_adapt",
+      "window": 0,
+      "rmse": 0.7381678227995505,
+      "notes": "same pre-fit, no online"
+    },
+    {
+      "question": "Q4",
+      "arm": "cmac",
+      "seed": 2,
+      "phase": "pre",
+      "window": 0,
+      "rmse": 0.013700830706974325,
+      "notes": "after fit on phase=0; before stream"
+    },
+    {
+      "question": "Q4",
+      "arm": "cmac",
+      "seed": 2,
+      "phase": "during_mid",
+      "window": 200,
+      "rmse": 0.3895817944837573,
+      "notes": "rolling stream RMSE mid-stream"
+    },
+    {
+      "question": "Q4",
+      "arm": "cmac",
+      "seed": 2,
+      "phase": "post_online",
+      "window": 0,
+      "rmse": 0.1859762297624424,
+      "notes": "after one-pass online on phase=π/2"
+    },
+    {
+      "question": "Q4",
+      "arm": "cmac_frozen",
+      "seed": 2,
+      "phase": "post_no_adapt",
+      "window": 0,
+      "rmse": 0.7614500547579274,
+      "notes": "same pre-fit, no online updates (baseline)"
+    },
+    {
+      "question": "Q4",
+      "arm": "mlp",
+      "seed": 2,
+      "phase": "pre",
+      "window": 0,
+      "rmse": 0.15984866230251288,
+      "notes": "after fit on phase=0"
+    },
+    {
+      "question": "Q4",
+      "arm": "mlp",
+      "seed": 2,
+      "phase": "during_mid",
+      "window": 200,
+      "rmse": 0.34320645994937,
+      "notes": "rolling stream RMSE mid-stream"
+    },
+    {
+      "question": "Q4",
+      "arm": "mlp",
+      "seed": 2,
+      "phase": "post_online",
+      "window": 0,
+      "rmse": 0.32828371726517974,
+      "notes": "after one-pass SGD on phase=π/2 (no replay)"
+    },
+    {
+      "question": "Q4",
+      "arm": "mlp_frozen",
+      "seed": 2,
+      "phase": "post_no_adapt",
+      "window": 0,
+      "rmse": 0.7667404707092702,
+      "notes": "same pre-fit, no online"
+    }
+  ],
+  "wisard_n_scaling_cited": [
+    {
+      "n": 100,
+      "acc": 0.8477,
+      "acc_range": 0.0064,
+      "source": "ramnet-study/results/baseline_full_frozen"
+    },
+    {
+      "n": 500,
+      "acc": 0.8713,
+      "acc_range": 0.0013,
+      "source": "ramnet-study/results/baseline_full_frozen"
+    },
+    {
+      "n": 1000,
+      "acc": 0.8769,
+      "acc_range": 0.0002,
+      "source": "ramnet-study/results/baseline_full_frozen"
+    },
+    {
+      "n": 5000,
+      "acc": 0.8759,
+      "acc_range": 0.0039,
+      "source": "ramnet-study/results/baseline_full_frozen"
+    },
+    {
+      "n": 10000,
+      "acc": 0.8474,
+      "acc_range": 0.0051,
+      "source": "ramnet-study/results/baseline_full_frozen"
+    }
+  ]
+}

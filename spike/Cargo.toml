@@ -1,0 +1,14 @@
+[package]
+name = "cmac-spike"
+version = "0.1.0"
+edition = "2021"
+publish = false
+description = "Minimal hashing-CMAC spike: does local delta rule learn on binarized MNIST?"
+
+[[bin]]
+name = "cmac-spike"
+path = "src/main.rs"
+
+[dependencies]
+rand = { version = "0.8", features = ["std_rng"] }
+rand_chacha = "0.3"

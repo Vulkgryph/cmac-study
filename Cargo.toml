@@ -1,0 +1,20 @@
+[package]
+name = "cmac-study"
+version = "0.1.0"
+edition = "2021"
+publish = false
+description = "Forgotten Architectures #2 — faithful CMAC (Albus 1975) + hashing-CMAC MNIST comparability"
+
+[[bin]]
+name = "cmac-study"
+path = "src/main.rs"
+
+[[bin]]
+name = "stage1_gate"
+path = "src/bin/stage1_gate.rs"
+
+[dependencies]
+rand = { version = "0.8", features = ["std_rng"] }
+rand_chacha = "0.3"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"

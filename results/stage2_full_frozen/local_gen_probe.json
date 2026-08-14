@@ -1,0 +1,79 @@
+[
+  {
+    "distance": 0.0,
+    "mean_shared": 16.0,
+    "min_shared": 16,
+    "max_shared": 16,
+    "n_pairs": 200
+  },
+  {
+    "distance": 0.010000000000000002,
+    "mean_shared": 13.92,
+    "min_shared": 13,
+    "max_shared": 15,
+    "n_pairs": 200
+  },
+  {
+    "distance": 0.025,
+    "mean_shared": 11.08,
+    "min_shared": 9,
+    "max_shared": 13,
+    "n_pairs": 200
+  },
+  {
+    "distance": 0.05,
+    "mean_shared": 7.23,
+    "min_shared": 4,
+    "max_shared": 11,
+    "n_pairs": 200
+  },
+  {
+    "distance": 0.09000000000000001,
+    "mean_shared": 1.86,
+    "min_shared": 0,
+    "max_shared": 6,
+    "n_pairs": 200
+  },
+  {
+    "distance": 0.1,
+    "mean_shared": 0.835,
+    "min_shared": 0,
+    "max_shared": 5,
+    "n_pairs": 200
+  },
+  {
+    "distance": 0.15000000000000002,
+    "mean_shared": 0.0,
+    "min_shared": 0,
+    "max_shared": 0,
+    "n_pairs": 200
+  },
+  {
+    "distance": 0.2,
+    "mean_shared": 0.0,
+    "min_shared": 0,
+    "max_shared": 0,
+    "n_pairs": 200
+  },
+  {
+    "distance": 0.30000000000000004,
+    "mean_shared": 0.0,
+    "min_shared": 0,
+    "max_shared": 0,
+    "n_pairs": 200
+  },
+  {
+    "distance": 0.5,
+    "mean_shared": 0.0,
+    "min_shared": 0,
+    "max_shared": 0,
+    "n_pairs": 200
+  },
+  {
+    "distance": 0.8,
+    "mean_shared": 0.0,
+    "min_shared": 0,
+    "max_shared": 0,
+    "n_pairs": 200
+  }
+]

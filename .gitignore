@@ -1,0 +1,25 @@
+# Rust build artifacts (large — never commit). Unanchored so it also matches
+# nested cargo projects like spike/target/.
+target/
+
+# Datasets — users provide MNIST themselves (see README); IDX files go in data/mnist/
+/data/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Agent / editor session data — never publish
+.forge/
+.claude/
+.bob/
+
+# OS cruft
+.DS_Store
+
+# NOTE: results/ is intentionally NOT ignored — the frozen result JSON/MD are the
+# reproducibility anchor (hashed in the paper) and must be committed.
+# The stage3_mnist_frozen_noblech_ARCHIVE/ broken run is kept on purpose and is
+# labeled "do not cite" in the paper — it documents why bleached WiSARD is the
+# honest number. Leave it committed for transparency.
