@@ -72,7 +72,7 @@ See [vulkgryph.com](https://vulkgryph.com).
 
 ## License
 
-Apache-2.0 — see [LICENSE](LICENSE).
+Copyright 2026 Vulkgryph LLC. Code licensed under Apache-2.0 — see [LICENSE](LICENSE) and [NOTICE](NOTICE).
 
 ---
 
